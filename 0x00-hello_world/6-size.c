@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 /**
  *  main - print the string in the put funcion
  *
