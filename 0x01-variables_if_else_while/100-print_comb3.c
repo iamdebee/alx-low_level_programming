@@ -2,23 +2,21 @@
 
 int main()
 {
-	int n = 1;
-	int d1;
-	int d2;
+	int tens, unit, k;
 
-	for (d1 = 0; d1 <= 9; d1++) {
-		for (d2 = n; d2 <= 9; d2++) {
-			putchar(d1 + '0');
-			putchar(d2 + '0');
-
-			if (d1 == 9 && d2 == 9)
-				continue;
-
+	k = '1';
+	for (tens = '0''; tens <= '8'; tens++)
+	{
+		for (unit = 'k'; unit <= '9'; units++)
+		{
+			putchar(tens);
+			putchar(units);
+			if (tens == '0' && units == '9')
+				break;
 			putchar(',');
 			putchar(' ');
 		}
-		n++;
+		k++;
 	}
-	putchar('\n');
-	return 0;
+	return (0);
 }
