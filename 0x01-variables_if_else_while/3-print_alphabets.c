@@ -1,23 +1,24 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
- *main - entry point
+ * main - Entry point
  *
- * Return: Always a (Success)
- *
+ * Return: Always 0 (Success)
  */
-Int main (void)
+int main(void)
 {
-	char abc;
-	char ABC
+		int a, A;
 
-	for (abc = 'a'; abc <= 'z' ; abc++)
-	{
-		putchar(abc);
-	}
-	for (ABC = 'A'; ABC <= 'Z'; ABC++)
-	{
-		putchar(ABC)
-	}
-	putchar('\n'):
-	return (0) ;
+		for (a = 'a'; a <= 'z'; a++)
+		{
+			putchar(a);
+		}
+		for (A = 'A'; A <= 'Z'; A++)
+		{
+			putchar(A);
+		}
+		putchar('\n');
+		return (0);
+}
