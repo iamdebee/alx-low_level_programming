@@ -9,11 +9,12 @@
  */
 int main(void)
 {
-		int a, A;
+		int no;
 
-		for (a = 'a'; a <= 'z'; a++)
-		
-	{}
+		for (no = '0'; no <= '9'; no++)
+		{
+			printf("%d", no);
+		}
 		putchar('\n');
 		return (0);
 }
