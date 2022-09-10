@@ -7,11 +7,11 @@ int main()
 	k = '1';
 	for (tens = '0'; tens <= '8'; tens++)
 	{
-		for (unit = 'k'; unit <= '9'; units++)
+		for (unit = 'k'; unit <= '9'; unit++)
 		{
 			putchar(tens);
-			putchar(units);
-			if (tens == '0' && units == '9')
+			putchar(unit);
+			if (tens == '0' && unit == '9')
 				break;
 			putchar(',');
 			putchar(' ');
