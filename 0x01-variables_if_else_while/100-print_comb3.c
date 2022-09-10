@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - Entry
+ *
+ * Return: 0 Always (Success) 
+ */
 int main(void)
 {
 	int tens, unit, k;
