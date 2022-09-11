@@ -20,7 +20,7 @@ int main(void)
 														                    putchar(huns);
 																                    putchar(tens);
 																		                    putchar(units);
-																				                    if (huns == '7' && tens == '8' && unit == '9')
+																				                    if (huns == '7' && tens == '8' && units == '9')
 																							                        break;
 																						                    putchar(',');
 																								                    putchar(' ');
