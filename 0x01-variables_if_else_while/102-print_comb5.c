@@ -11,7 +11,6 @@ int main(void)
 {
 	int a, b, c, d;
 	int j;
-	
 	for (a = '0'; a <= '9'; a++)
 	{
 		for (b = '0'; b <= '9'; b++)
@@ -28,7 +27,7 @@ int main(void)
 					putchar(' ');
 					putchar(c);
 					putchar(d);
-					if ( a == '9' && b == '8' && c == '9' && d == '9')
+					if( a == '9' && b == '8' && c == '9' && d == '9')
 						break;
 					putchar(',');
 					putchar(' ');
