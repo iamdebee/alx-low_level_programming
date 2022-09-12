@@ -10,13 +10,12 @@
 int main(void)
 {
 	int a, b, c, d;
-	int i, j;
+	int j;
 	
 	for (a = '0'; a <= '9'; a++)
 	{
 		for (b = '0'; b <= '9'; b++)
 		{
-			i = a;
 			b++;
 			j = b;
 			b--;
