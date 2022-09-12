@@ -8,16 +8,17 @@
 int main(void)
 {
 	int a, b, c, d;
-	int j;
+	int i. j;
 
 	for (a = '0'; a <= '9'; a++)
 	{
 		for (b = '0'; b <= '9'; b++)
 		{
+			i = a;
 			b++;
 			j = b;
 			b--;
-			for (c = '0'; c <= '9'; c++)
+			for (c = i; c <= '9'; c++)
 			{
 				for (d = j; d <= '9'; d++)
 				{
@@ -31,6 +32,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				j = '0';
 			}
 		}
 	}
