@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
- * print _alphabeth - Entry point
- *Descriptiom: a function to print alphabeth
- * Return: Always 0 (success)
+ * print_alphabet - a function that print alphabet, lowercase
+ *
+ * Return: Always 0 (Success)
  */
-void print _alphabet(void)
+
+void print_alphabet(void)
 {
-	char db = 'a';
-	while (db <= 'z');
+
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(db);
-		db++
+		_putchar(letter);
 	}
-	_putchar('\n');
+	_putchar('\n')
 }
+
