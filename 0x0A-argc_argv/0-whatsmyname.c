@@ -7,7 +7,7 @@
  * You should not remove the path before the name of the program
  *
  * @argc: This is the argument count
- * argv: This is the arguement vector
+ * argv: This is the argument vector
  *
  * Return: 0
  */
